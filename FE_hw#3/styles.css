@@ -1,0 +1,398 @@
+body {
+    font-family: 'Nuosu SIL', serif;
+    margin-left: 30px;;
+    background-color: antiquewhite;
+    }
+    
+    .first {
+        margin-bottom: 0px;
+        width: 82px;
+        height: 48px;
+        font-family: 'Inter';
+        font-weight: 400;
+        line-height: 48px;
+        display: flex;
+        align-items: center;
+        color: #0B2239;
+        opacity: 0.3;
+    }
+    
+    h1 {
+    width: 1123px;
+    height: 133px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 110px;
+    line-height: 133px;
+    display: flex;
+    align-items: center;
+    color: #0B2239;
+    }
+    
+    .next {
+        width: 389px;
+height: 48px;
+margin-top: 0;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+color: #0B2239;
+opacity: 0.3;
+    }
+
+.second {
+    width: 1440px;
+    height: 72px;
+    background: #0B2239;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.second > p {
+ width: 922px;
+height: 40px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+margin-left: 20px;
+}
+
+.accept {
+    display: flex;
+    align-items:  center;
+    margin-right: 100px;
+}
+
+.accept > a {
+    font-family: 'Inter';
+    font-weight: 600px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4AD295;
+    text-align: center;
+  
+}
+
+.accept > button {
+    padding: 8px 10px;
+    color: #FFFFFF;
+    background: #4AD295;
+    border-radius: 3px;
+    order: 1;
+ 
+}
+
+.ban_2 {
+    margin-top: 60px;
+    background: #2B2627;
+    width: 1440px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.ban_2 > p {
+justify-content: center;
+height: 20px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.exclam{
+    height: 20px;
+margin-top: 17px;
+}
+
+.cross {
+    height: 20px;
+   display: flex;
+   background-color: #FFFFFF;
+   margin-top: 18px;
+   margin-left: 5px;
+}
+
+.ban_3 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+margin-top: 60px;
+width: 560px;
+height: 72px;
+background: #FFFFFF;
+box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+border-radius: 16px;
+}
+
+.bite {
+    padding: 8px;
+    border-radius: 10px;
+    background: rgba(234, 77, 137, 0.102);
+}
+
+
+
+.text_ban3 {
+    color: rgb(234, 77, 137)
+}
+
+.button_3 {
+   
+    display: contents;
+}
+
+.decline {
+display: inline;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 10px;
+gap: 10px;
+width: 63px;
+height: 28px;
+background: rgba(13, 12, 34, 0.05);
+border-radius: 8px;
+border: 0px;
+
+}
+
+.allow {
+display: inline;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 10px;
+gap: 10px;
+width: 52px;
+height: 28px;
+background: #EA4C89;
+border-radius: 8px;
+border: 0px;
+}
+
+.ban_4 {
+ margin-top: 60px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+gap: 10px;
+width: 560px;
+height: 64px;
+background: #26262B;
+box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+border-radius: 10px;
+}
+
+.text_ban4 {
+ width: 469px;
+height: 40px;
+font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.butt_4 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 9px;
+gap: 10px;
+width: 49px;
+height: 28px;
+background: #FFFFFF;
+border-radius: 8px;
+}
+
+.cookie_notice {
+margin-top: 60px;
+background: rgba(28, 37, 64, 0.95);
+box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+border-radius: 6px;
+padding: 24px;
+gap: 16px;
+width: 360px;
+height: 206px;
+
+}
+
+.cookie_notice > h3 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+margin-top: 10px;
+}
+
+.general {
+    display: flex;
+
+}
+.cookie_notice > p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.head_butt {
+align-items: baseline;
+justify-content: space-evenly;
+display: flex;
+font-family:'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.head_butt > button {
+padding: 8px 20px;
+gap: 10px;
+width: 85px;
+height: 32px;
+background: #09B3AF;
+box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+border-radius: 6px;
+}
+
+.cookie_sets {
+margin: 60px;
+padding: 16px;
+gap: 16px;
+width: 360px;
+height: 170px;
+background: #FFFFFF;
+box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+border-radius: 16px;
+}
+
+.butts_5 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.mng {
+justify-content: center;
+padding: 8px;
+gap: 10px;
+width: 160px;
+height: 32px;
+background: #EAF0F4;
+box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+border-radius: 6px;
+border: 0px;
+font-family: 'Roboto';
+font-size: 16px;
+text-align: center;
+color: #687F8C;
+}
+
+.acc {
+    padding: 8px;
+    gap: 10px;
+    width: 160px;
+height: 32px;
+    background: #40C1A7;
+box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+border-radius: 6px;
+border: 0px;
+font-family: 'Roboto';
+font-size: 14px;
+font-weight: 500px;
+color: #FFFFFF;
+}
+
+.block_2 {
+    display: flex; 
+   justify-content:flex-start;
+  
+}
+.cookie {
+ margin-right: 60px;   
+ flex-direction: column;
+padding: 32px;
+gap: 32px;
+background-color: #FFFFFF;
+border-radius: 20px;
+width: 320px;
+height: 260px;
+
+}
+
+.cookie > p {
+font-family: 'Inter';
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+text-align: center;
+color: #15295A;
+}
+
+.but_6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+ 
+    padding: 10px 32px;
+    gap: 10px;
+    width: 121px;
+    height: 44px;
+    background: #4A7EFF;
+    border-radius: 43px;
+    border: 0px;
+    color: #FFFFFF;
+
+}
+
+.last_one {
+width: 320px;
+height: 137px;
+background-color: #FFFFFF;
+padding: 16px;
+}
+
+.p_p {
+font-family: 'SF Pro Text';
+font-weight: 600;
+font-size: 17px;
+line-height: 17px;
+color: #6666FF;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down > button {
+
+width: 64px;
+height: 33px;
+background-color: #6666FF;
+color:#EAF0F4;
+border-radius: 4px;
+border: 0px;
+}
