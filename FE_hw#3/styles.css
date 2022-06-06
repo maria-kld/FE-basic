@@ -1,7 +1,7 @@
 body {
     font-family: 'Nuosu SIL', serif;
     margin-left: 30px;;
-    background-color: antiquewhite;
+    background-color: #E5E5E5;
     }
     
     .first {
@@ -50,7 +50,7 @@ opacity: 0.3;
     height: 72px;
     background: #0B2239;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
    
 }
 
@@ -87,6 +87,7 @@ margin-left: 20px;
     background: #4AD295;
     border-radius: 3px;
     order: 1;
+    cursor: pointer;
  
 }
 
@@ -112,6 +113,7 @@ color: #FFFFFF;
 .exclam{
     height: 20px;
 margin-top: 17px;
+margin-right: 10px;
 }
 
 .cross {
@@ -119,7 +121,7 @@ margin-top: 17px;
    display: flex;
    background-color: #FFFFFF;
    margin-top: 18px;
-   margin-left: 5px;
+   margin-left: 10px;
 }
 
 .ban_3 {
@@ -155,6 +157,7 @@ border-radius: 16px;
 }
 
 .decline {
+    cursor: pointer;
 display: inline;
 flex-direction: row;
 align-items: flex-start;
@@ -169,6 +172,7 @@ border: 0px;
 }
 
 .allow {
+    cursor: pointer;
 display: inline;
 flex-direction: row;
 align-items: flex-start;
@@ -208,6 +212,7 @@ color: #FFFFFF;
 }
 
 .butt_4 {
+    cursor: pointer;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -256,7 +261,7 @@ color: #FFFFFF;
 
 .head_butt {
 align-items: baseline;
-justify-content: space-evenly;
+justify-content: space-between;
 display: flex;
 font-family:'Roboto';
 font-style: normal;
@@ -267,6 +272,7 @@ color: #FFFFFF;
 }
 
 .head_butt > button {
+    cursor: pointer;
 padding: 8px 20px;
 gap: 10px;
 width: 85px;
@@ -274,6 +280,8 @@ height: 32px;
 background: #09B3AF;
 box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
 border-radius: 6px;
+border: 0px;
+color: #FFFFFF;
 }
 
 .cookie_sets {
@@ -290,9 +298,10 @@ border-radius: 16px;
 .butts_5 {
     display: flex;
     align-items: baseline;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .mng {
+    cursor: pointer;
 justify-content: center;
 padding: 8px;
 gap: 10px;
@@ -309,6 +318,7 @@ color: #687F8C;
 }
 
 .acc {
+    cursor: pointer;
     padding: 8px;
     gap: 10px;
     width: 160px;
@@ -350,6 +360,7 @@ color: #15295A;
 }
 
 .but_6 {
+    cursor: pointer;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -388,7 +399,7 @@ color: #6666FF;
 }
 
 .down > button {
-
+    cursor: pointer;
 width: 64px;
 height: 33px;
 background-color: #6666FF;
