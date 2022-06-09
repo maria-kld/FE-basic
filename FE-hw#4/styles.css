@@ -196,7 +196,7 @@ color: #101010;
     margin-bottom: 50px;
 }
 
-.service > p {
+.service > ul {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
