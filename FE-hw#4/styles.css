@@ -1,0 +1,250 @@
+.header {
+    background-color: #ED4C5C;
+    height: 500px;
+    width: 100vp;
+    padding: 122px 165px;
+    display: flex;
+    align-items: center;
+}
+
+.header_text {
+    width: 500px;
+   
+}
+
+.header_text > h2 {
+font-family: 'Lato';
+color: white;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+margin-bottom: 40px;
+display: inline-block;
+}
+
+.header_text > p {
+font-family: 'Lato';
+color: white;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+margin-bottom: 30px;
+}
+
+.next_img {
+    align-items: center;
+    margin-left: 200px;
+}
+
+.main {
+    height: 500px;
+    width: 100vp;
+    background-color: white;
+    display: flex;
+}
+
+.contact{
+    width: 445px;
+padding: 117px 160px;
+    
+}
+
+.contact > h2 {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+color: #000000;
+margin-bottom: 60px;
+}
+
+.contact > p {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+}
+
+.form {
+
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 90px
+}
+
+#input1, #input2 {
+    width: 38%;
+    height: 20px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px;
+    color: rgba(19, 39, 67, 0.5);
+}
+
+#input3 {
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px;
+    color: rgba(19, 39, 67, 0.5);
+    height: 20px;
+    width: 100%;
+}
+
+#servise {
+  font-family: 'Lato';
+  width: 100%;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  padding: 0px 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: rgba(19, 39, 67, 0.5);
+}
+
+.butt {
+ width: 160px;
+height: 50px;
+background: #ED4C5C;
+border: 1.5px solid #ED4C5C;
+border-radius: 6px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: white;
+margin-top: 30px;
+}
+
+.footer {
+    height: 435px;
+    background-color: #FAFAFA;
+    display: flex;
+    padding: 60px;
+   justify-content: space-between;
+   padding: 85px 166px;
+}
+
+.addres {
+width: 259px;
+height: 264px;
+}
+
+.addres > h3 {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #101010;
+text-align: left;
+margin-bottom: 50px;
+}
+
+.addres > p {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #101010;
+}
+
+.last {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    text-align: left;
+    margin-top: 100%;
+}
+
+.service {
+    width: 259px
+}
+.service > h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.service > p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.get {
+    width: 259px
+}
+
+.get > h3 {
+ font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: left;
+color: #101010;
+}
+
+.get > p {
+    margin-top: 60px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #101010;
+}
+
+.get > img {
+    margin-top: 20px;
+    margin-right: 18px;
+}
+
+.supp {
+    width: 259px;
+}
+
+.supp > h3 {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #101010;
+text-align: left;
+}
