@@ -1,0 +1,64 @@
+.conteiner {
+    display: flex;
+    width: 250px;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.div {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.div:nth-child(4n + 3) {
+    background-color: red;
+}
+
+.div:nth-child(21),
+.div:nth-child(22) {
+    background-color: blue;
+}
+
+
+.div:last-child {
+    background-color: blue;
+}
+
+
+
+.btn-conteiner {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.btn-conteiner::after,
+.btn-conteiner::before {
+    content: "";
+    width: 200px;
+    height: 2px;
+    border: 2px solid #C4C4C4;;
+    margin: 95px 46px;
+    border-right: 0;
+    border-left: 0;
+   
+}
+
+
+.butt {
+    width: 501px;
+    height: 92px;
+    cursor: pointer;
+    margin-top: 50px;
+    background: #44D3A8;
+    border: none;
+    border-radius: 100px;   
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
