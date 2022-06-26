@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(206, 217, 233);
+}
+
+.sword {
+ margin: 100px auto;
+  width: auto;
+
+  height: 100px;
+}
+
+.sword span {
+    cursor: pointer; 
+    height: 2px;
+    width: 60px;
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 2px;
+    margin-left: 700px;
+    background-color: rgb(129, 125, 125);
+}
+
+.sword:hover span:nth-child(1) {
+    margin-bottom: 13px;
+    background-color: rgb(78, 73, 73);
+    transition: 1s;
+}
+
+.sword:hover span:nth-child(2) {
+background-color: rgb(209, 24, 110);
+transform: rotate(30deg);
+display: inline-block;
+transition: 1s;
+}
+
+.sword:hover span:nth-child(3) {
+    background-color: rgb(138, 17, 213);
+    transform: rotate(-30deg);
+    transition: 1s;
+}
+
+
+/*#2*/
+ .nuton {
+    width: 700px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: rgb(190, 180, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.nuton div {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+.nuton div:nth-child(1) {
+    background: linear-gradient(to right, rgb(19, 19, 33), rgb(19, 19, 48))
+}
+
+.nuton div:nth-child(2) {
+    background: linear-gradient(to right, rgb(19, 19, 48), rgb(24, 24, 69))
+}
+
+.nuton div:nth-child(3) {
+    background: linear-gradient(to right, rgb(24, 24, 69), rgb(67, 34, 34))
+}
+
+.nuton div:nth-child(4) {
+    background: linear-gradient(to right, rgb(67, 34, 34), rgb(105, 30, 30))
+}
+
+.nuton div:nth-child(5) {
+    background: linear-gradient(to right,  rgb(105, 30, 30), rgb(171, 33, 33))
+}
+
+.nuton div:nth-child(6) {
+    background: linear-gradient(to right, rgb(171, 33, 33), rgb(206, 24, 24))
+}
+
+.nuton div:nth-child(7) {
+    background: linear-gradient(to right, rgb(206, 24, 24), red)
+}
+
+
+
+.nuton div:first-child {
+    animation-name: first;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes first {
+    0% {
+        transform: rotate(0deg);
+    }
+   25% {
+        transform: translate(-80px, -60px);  
+    }
+
+    50% {
+        transform: translate(-110px, -150px); 
+    }
+
+    75% {
+        transform: translate(-80px, -60px);  
+    }
+   
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.nuton div:last-child {
+    animation-name: last;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes last {
+    0% {
+        transform: rotate(0deg);
+    }
+   25% {
+        transform: translate(80px, -60px);  
+    }
+
+    50% {
+        transform: translate(110px, -150px); 
+    }
+
+    75% {
+        transform: translate(80px, -60px);  
+    }
+   
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
