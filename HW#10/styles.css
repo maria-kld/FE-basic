@@ -5,8 +5,7 @@ body {
 .sword {
  margin: 100px auto;
   width: auto;
-
-  height: 100px;
+  height: auto;
 }
 
 .sword span {
@@ -20,23 +19,44 @@ body {
     background-color: rgb(129, 125, 125);
 }
 
+.sword span:nth-child(1)::before,
+.sword span:nth-child(3)::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: black;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.sword span:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: black;
+   margin-left: 40px;
+    border-radius: 2px;
+}
+
 .sword:hover span:nth-child(1) {
-    margin-bottom: 13px;
-    background-color: rgb(78, 73, 73);
-    transition: 1s;
+    display: none;
 }
 
 .sword:hover span:nth-child(2) {
 background-color: rgb(209, 24, 110);
-transform: rotate(30deg);
+transform: translate(5px, 7px) rotate(45deg);
 display: inline-block;
 transition: 1s;
+box-shadow: 5px 5px 10px 1px rgb(209, 24, 110);
 }
 
 .sword:hover span:nth-child(3) {
     background-color: rgb(138, 17, 213);
-    transform: rotate(-30deg);
+    transform: rotate(-45deg);
     transition: 1s;
+    box-shadow: 5px 5px 10px 1px rgb(138, 17, 213);
 }
 
 
@@ -55,6 +75,7 @@ transition: 1s;
     width: 75px;
     height: 75px;
     border-radius: 50px;
+    box-shadow: 0px 40px 40px 1px
 }
 
 .nuton div:nth-child(1) {
@@ -89,10 +110,36 @@ transition: 1s;
 
 .nuton div:first-child {
     animation-name: first;
-    animation-duration: 0.75s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
+
+@keyframes first {
+    0% {
+        transform: rotate(0deg);
+    }
+   10% {
+        transform: translate(-80px, -60px);  
+    }
+
+    20% {
+        transform: translate(-110px, -150px); 
+    }
+
+    30% {
+        transform: translate(-80px, -60px);  
+    }
+   
+    40% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+/*
 
 @keyframes first {
     0% {
@@ -114,14 +161,35 @@ transition: 1s;
         transform: rotate(0deg);
     }
 }
-
+*/
 .nuton div:last-child {
     animation-name: last;
-    animation-duration: 0.75s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
+@keyframes last {
+   50% {
+        transform: rotate(0deg);
+    }
+   60% {
+        transform: translate(80px, -60px);  
+    }
+
+    70% {
+        transform: translate(110px, -150px); 
+    }
+
+   80% {
+        transform: translate(80px, -60px);  
+    }
+   
+    100% {
+        transform: rotate(0deg);
+    }
+}
+/*
 @keyframes last {
     0% {
         transform: rotate(0deg);
@@ -141,5 +209,8 @@ transition: 1s;
     100% {
         transform: rotate(0deg);
     }
-}
+}*/
 
+
+     
+  
