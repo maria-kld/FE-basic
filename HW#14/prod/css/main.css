@@ -600,23 +600,21 @@ button {
     clear: both;
 }
 
-.adv .icon {
-    width: 55px; 
-    height: 60px;
-    background-image: url(/img/css_sprites.png) 0 0;
-    background-repeat: no-repeat;
-}
-
-.adv .instagram {
-    width: 55px; 
-    height: 60px;
-    background: url(/img/css_sprites.png) -10px -10px;
-}
-
 .advantages .adv-title {
     margin-top: 15px;
     font-family: "HelveticaNeueBold";
     font-size: 18px;
+}
+
+.advantages .adv .icon {
+    background-image: url(/img/css_sprites.png);
+    background-position: 0 0;
+    width: 50px;
+}
+
+.advantages .adv .icon .bg-adv1 {
+    width: 55px; height: 60px;
+    background: url('css_sprites.png') -10px -10px;
 }
 
 .last-screen {
