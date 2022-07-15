@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!-- Прелоадер -->
+  <div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
 <header>
     <div class="wrapper">
         <img src="img/logo.png" alt="Logo Avtoparktronik" class="logo">
@@ -207,7 +214,7 @@
         </ul>
         <p>Мы заботимся о своей репутации, клиенты для нас на первом месте!</p>
         <div class="advantages">
-            <div class="adv"><img src="img/adv1.png" alt="">
+            <div class="adv"><div class="icon instagram"></div>
                 <div class="adv-title yellow">Оплата при получении</div>
             </div>
             <div class="adv"><img src="img/adv2.png" alt="">
@@ -273,6 +280,18 @@
 </footer>
 <script src="lib/plugins.js"></script>
 <script>
+    
+    // preloader
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+
+ 
+
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
 
